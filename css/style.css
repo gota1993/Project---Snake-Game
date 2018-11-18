@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: none;
+    border: 5px solid white;
+}
+
+p {
+    margin-top: -4px;
+    margin-bottom: 4px;
+}
+
+select {
+    margin: 2px 5px;
+    background: red;
+    color: white;
+}
+
+#menu_div {
+    margin-top: 30px;
+    width: 700px;
+    height: 100px;
+    margin: 10px auto;
+    background: #0d068d;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    color: white
+}
+
+#menu_div div{
+    flex: 1
+}
+
+.levels,
+.speed,
+.board,
+.apples_list,
+.snake_length_list {
+    text-align: center;
+    margin: 5px;
+    border-right: 1px solid white
+}
+
+.snake_length_list {
+    border-right: none
+}
+
+button {
+    background: red;
+    margin: 2px 4px;
+    color: white
+}
+
+.apples_list button,
+.snake_length_list button {
+    margin: 2px 2px;
+}
+
+.selected {
+    border: 2px solid #FFFF00
+}
+
+.novice_speeds,
+.intermediate_speeds,
+.hard_speeds {
+    display: none;
+}
+
+input {
+    width: 60px;
+    margin:5px;
+}
+
+.play {
+    background: rgb(121, 156, 0);
+    text-align: center;
+    color: white;
+    display: flex;
+    cursor: pointer;
+}
+
+.play:hover {
+    text-decoration: underline
+}
+
+.play:active {
+    font-size: 25px;
+}
+
+h2,
+h3 {
+    margin: auto;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
