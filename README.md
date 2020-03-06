@@ -1,7 +1,8 @@
-# Project---Snake-Game
-Project second project - snake game.
+Techub Learning Center Intermediate Project - Snake Game. 
 
-Game description
+You can see and play game at link: https://gota1993.github.io/Project---Snake-Game/snake.html
+
+Game and project description:
 
 In this game the player controls a square on a bordered plane. As it moves forward, it leaves a trail behind, resembling a moving snake. The snake has a specific length, so there is a moving tail a fixed number of units away from the head. The player loses when the snake runs into the screen border, a trail or itself.
 
